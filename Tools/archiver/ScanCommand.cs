@@ -71,11 +71,11 @@ namespace archiver
                     badFiles.Add(mp4File);
                     Console.WriteLine($"*** ERROR: ****************");
                     Console.WriteLine($"{response.ErrorText.Trim()}");
-                    Console.WriteLine($"**********");
+                    Console.WriteLine($"***************************");
 
                     Console.WriteLine($"*** ERROR: ****************");
                     logFile.WriteLine($"{response.ErrorText.Trim()}");
-                    logFile.WriteLine($"**********");
+                    logFile.WriteLine($"***************************");
                 }
 
                 logFile.Flush();
