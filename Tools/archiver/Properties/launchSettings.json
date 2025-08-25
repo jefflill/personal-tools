@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "archiver": {
+      "commandName": "Project",
+      "commandLineArgs": "\\\\ugreen-nas\\new\\xxx-test"
+    }
+  }
+}
